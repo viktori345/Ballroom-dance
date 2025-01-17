@@ -1,0 +1,35 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ddacf0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.attraction {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.attraction h2 {
+    color: #22ff98;
+}
+
+.attraction p {
+    color: #867c84;
+}
+
+.attraction-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
