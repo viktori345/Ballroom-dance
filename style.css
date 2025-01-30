@@ -30,6 +30,18 @@ h1 {
 
 .attraction-image {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     border-radius: 5px;
+}
+
+@media (max-width:480px) {
+    .attraction-image {
+        width: 100%;
+        height: auto;
+    }
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
 }
